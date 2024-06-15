@@ -12,8 +12,6 @@
 
 <link rel="stylesheet" type="text/css" href="<? echo $mv -> media_path; ?>css/style.css" />
 
-<script type="text/javascript"> var rootPath = "<? echo $mv -> root_path; ?>"; </script>
-
 <? echo $mv -> seo -> displayMetaData("head"); ?>
 </head>
 <body>

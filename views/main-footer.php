@@ -32,7 +32,7 @@
             </div>
         </div>
     </footer>
-    <script src="<? echo $mv -> media_path; ?>js/main.js"></script>
+
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const burgerMenu = document.getElementById('burger-menu');

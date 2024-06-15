@@ -102,7 +102,33 @@ include $mv -> views_path."main-header.php";
     </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-   
+   <script>
+    const about_sociallive_swiper = new Swiper('.swiper', {
+    // Optional parameters
+    effect: "fade",
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+   </script>
 
 <?
 include $mv -> views_path."main-footer.php";
